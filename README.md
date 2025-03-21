@@ -24,4 +24,5 @@ Execute the below commands on the local VM to install the Google Cloud SDK:
     gcloud --version
 
 # The below command to install Stress package
-sudo apt install -y stress
+
+    sudo apt install -y stress
