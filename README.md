@@ -27,3 +27,13 @@ Execute the below commands on the local VM to install the Google Cloud SDK:
  The below command to install Stress package
 
     sudo apt install -y stress
+
+ Command create stress on CPU utilization
+
+    stress --cpu 4 --timeout 300
+
+  Run the script
+
+    ./assignment3.sh
+
+    
