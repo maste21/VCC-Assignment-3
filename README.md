@@ -1,11 +1,14 @@
 # VCC-Assignment-3
 Execute the below commands on the local VM to install the Google Cloud SDK:
-# Install prerequisites
-sudo apt install apt-transport-https ca-certificates gnupg curl -y
 
-# Add Google Cloud public key
-curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | \
-sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+  Install prerequisites
+  
+    sudo apt install apt-transport-https ca-certificates gnupg curl -y
+
+ Add Google Cloud public key
+
+   curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | \
+   sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
 
 # Add the Cloud SDK distribution URI
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] \
