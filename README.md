@@ -10,7 +10,7 @@ Execute the below commands on the local VM to install the Google Cloud SDK:
     curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | \
     sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
 
- Add the Cloud SDK distribution URI
+ Add the Cloud SDK distribution URI  
      echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] \
      http://packages.cloud.google.com/apt cloud-sdk main" | \
      sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
